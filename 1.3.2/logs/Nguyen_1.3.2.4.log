@@ -1,0 +1,103 @@
+# IPython log file
+
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import numpy as np
+a = np.random.randn(10000)
+plt.hist(a)
+#[Out]# (array([   18.,   132.,   716.,  1889.,  2913.,  2542.,  1287.,   411.,
+#[Out]#           83.,     9.]), array([-3.61549559, -2.86183308, -2.10817056, -1.35450804, -0.60084552,
+#[Out]#         0.15281699,  0.90647951,  1.66014203,  2.41380455,  3.16746706,
+#[Out]#         3.92112958]), <a list of 10 Patch objects>)
+plt.savefig('1.3.2/Histogram')
+%logstart -ort 1.3.2/logs/Nguyen_1.3.2.1.log
+# TinhPhong 1.3.2 IPython Log
+%logstop
+10+2
+#[Out]# 12
+20/10
+#[Out]# 2
+100*29012
+#[Out]# 2901200
+22222/11
+#[Out]# 2020
+2*2.0
+#[Out]# 4.0
+2*2.
+#[Out]# 4.0
+7/2
+#[Out]# 3
+7/2.
+#[Out]# 3.5
+#7b.When you divide and int with an int then you get a rounded version of the number. When you divide and int with a float you get the exact number.
+#7b. Dividing an int with another int creates a rounded number if the answer is a float. Dividing an int with a float gives you the unrounded version of the answer.
+#8. answer
+student_age = 16
+a
+#[Out]# array([ 0.34077262,  0.19925878,  1.55667781, ...,  0.25963319,
+#[Out]#        -0.11159054,  0.3580429 ])
+student_age
+#[Out]# 16
+10 ** 2
+#[Out]# 100
+#9. answer
+23 ** 43
+#[Out]# 35834136918934220777541995677272642015423987712183913488967L
+#10. answer
+abs(-7)
+#[Out]# 7
+1.0 == 1
+#[Out]# True
+%run 1.3.2/Nguyen_1.3.2.py
+%run 1.3.2/Nguyen_1.3.2.py
+2*3.0
+#[Out]# 6.0
+2*3
+#[Out]# 6
+#11. The advantage of editing a lot of code in the code editor before executing it is that you can edit your code much faster and more efficiently. An advantage with using the interactive Ipython shell is that you get to automatically see the output if doing arithmetic, and you can read code easier.
+#12. App Inventor and Scratch used blocks that could wrap around other blocks, which indicated that the block inside it was grouped with it, just like if an else chunk was in an if-else structure.
+%run 1.3.2/Nguyen_1.3.2.py
+%run 1.3.2/Nguyen_1.3.2.py
+add_tip(5,.5)
+#[Out]# 7.5
+%logstart -ort 1.3.2/logs/Nguyen_1.3.2.2.log
+%logstop
+#13 You might want to use a docstring when defining a function with def because it makes your other comments and code easier to read.
+#14 The advantages of destroying local variables once the block is done executing is that the since the variable is now useless, destroying it will give you more space in your code.
+A compiler would execute the translations of the interpereter to the computer.
+#15 A compiler would execute the translations of the interpereter to the computer.
+#17a. Test
+hyp(3,4)
+%run 1.3.2/Nguyen_1.3.2.py
+%run 1.3.2/Nguyen_1.3.2.py
+%run 1.3.2/Nguyen_1.3.2.py
+%run 1.3.2/Nguyen_1.3.2.py
+%run 1.3.2/Nguyen_1.3.2.py
+%run 1.3.2/Nguyen_1.3.2.py
+%run 1.3.2/Nguyen_1.3.2.py
+%run 1.3.2/Nguyen_1.3.2.py
+%run 1.3.2/Nguyen_1.3.2.py
+%run 1.3.2/Nguyen_1.3.2.py
+hyp(3,4)
+#[Out]# 5.0
+%run 1.3.2/Nguyen_1.3.2.py
+mean(3,4,7)
+#[Out]# 4.666666666666667
+%logstart -ort 1.3.2/logs/Nguyen_1.3.2.2.log
+%logstop
+%run 1.3.2/Nguyen_1.3.2.py
+perimeter(3,4)
+%run 1.3.2/Nguyen_1.3.2.py
+%run 1.3.2/Nguyen_1.3.2.py
+perimeter(3,4)
+#[Out]# 14
+#Conclusion 1. Something that I would like to have automated by a program is an alarm system for my house that can detect if any doors or windows are opened inside my house. If a door or window is opened when the alarm system is armed, it emails me that a door or window has been opened.
+#Conclusion 2. The native data types that I learned in this activity are integers, floats, boolean, and strings.
+#Conclusion 3. The differences between the command line of the interpretive iPython session and the code editor where you edit a file of code is that you can only run functions and your code, as well as get answers from arithmetic in the IPython shell.
+#Conclusion 4. The advantages of putting code intside of function definitions are that you can do things much faster. Instead of copying a large chunk of code again and again, you can simply put it into a function and then call that function.
+%run 1.3.2/Nguyen_1.3.2.py
+%run 1.3.2/Nguyen_1.3.2.py
+#Conclusion 5. My results were 23.0 for add_tip(20,0.15), 34.5 for add_tip(30,0.15), 5.0 for hyp(3,4), 4.666666667 for mean(3,4,7), and 14 for perimeter(3,4). This question might be the last question in this activity because it summed up everything that I did in this activity, from arithmetics to IPython to functions.
+# Sat, 08 Dec 2018 00:18:01
+%logstop
